@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav2.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script>
+    function mylinkfunction(e) {
+
+        window.location.href="#call";
+        
+        /* need to stop the form sending of the form
+        
+         UPDATE as comment: This may not be exactly correct syntax 
+         for stopping a form , look up preventing form submission */
+        
+        e.preventDefault();
+        e.stopPropagation(); 
+        
+        }
+</script>
+<style>
+    .color{
+        color:white;
+    }
+    @media only screen and (max-width:350px)
+    {
+        .new2{
+            margin-left: 150px;
+
+        }
+        .new{
+            margin-left: 80px;
+
+        }
+    }
+</style>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           E-Shopping
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="About.html">About</a></li>
+           <li><a href="Contact.html">Contact us</a></li>
+           <li><a href="signup.html">Signup</a></li>
+           <li><a href="login.html">Login</a></li>
+        </ul>
+     </nav>
+<div class="container">
+    <div class="item"><img src="Apple-12-Pro-400.png"><br>
+     
+     
+</div>
+    <!-- <div class="item"><h1>Col2</h1></div> -->
+</div>
+
+<!-- For Iphone 4 preview -->
+<div class="container mar">
+    <div class="item column" ><h2 class="i4">iPhone 12 Pro</h2>
+    <br>
+    <br>
+   <b> <h1 class="blast">Blast Past Fast.</h1><br></b>
+    <p class="lines">A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display.</p><br><p class="lines two">Ceramic Shield with four times better drop performance.</p><br><p class="lines 3">And Night mode on every camera.iPhone 12 has it all — in two perfect sizes.</p>
+    <br>
+    <br>   
+    <h3 class="gray price" > Start From &#x20B9; 1,19,990<sup>*</sup></h3>
+</div>
+</div>
+<!-- MAC Book Preview -->
+<div class="container">
+    <div class="item"><picture>
+        <Source media="(min-width:1000px)" srcset="mac16.jfif"> 
+            <Source media="(min-width:465px)" srcset="mac16_2-removebg-preview (1).png"> 
+                    <img src="mac16_2-removebg-preview (1).png">
+    </picture><br>
+     
+     
+</div>
+    <!-- <div class="item"><h1>Col2</h1></div> -->
+</div>
+<div class="container mar">
+    <div class="item column" ><h2 class="i5">MacBook Air</h2>
+    <br>
+    <br>
+   <b> <h1 class="blast gray i6">Power. It’s in the Air.</h1><br></b>
+    <p class="lines gray">Our thinnest, lightest notebook, completely transformed by the</p><br><p class="lines two gray">Apple M1 chip. CPU speeds up to 3.5x faster.</p><br><p class="lines 3 gray">GPU speeds up to 5x faster.</p><br><p class="lines 3 gray">Our most advanced Neural Engine for up to 9x faster machine learning.</p><br><p class="lines 3 gray">The longest battery life ever in a MacBook Air.</p><br>
+    <br>
+    <br>   
+    <h3 class=" price" > Start From &#x20B9; 92,990<sup>*</sup></h3>
+</div>
+</div>
+<br>
+<br>
+
+<hr>
+<br>
+<center><h1 class="head">Products <img src="baseline_add_shopping_cart_black_24dp.png"></h1></center>
+<br>
+<!-- All Product Button -->
+<ul class="prod">
+    <li class="li1"><button onclick="mylinkfunction()" class="btn">iphone</button></li>
+    <li class="li1"><button onclick="location.href='Samsung.html'" class="btn2">&nbsp;Samsung&nbsp;</button></li>
+    <li class="li1"><button  onclick="location.href='macbook.html'"class="btn">Laptops</button></li>
+</ul>
+<hr>
+
+
+<div class="container1">
+    <!-- Product 1 -->
+    <div class="item2"id="call">
+  <center>      <img src="Apple-12-removebg-400.png"> </center>
+        <br>
+        <h4 class="iphone">Apple iPhone 12 128 GB, White</h4>
+        <br>
+        <h6 class="gray iphone2"> Deal Price &#8377; 80,650</h6>
+        <button class="btnbuy set" onclick="location.href='Apple 12.html '">Buy Now</button>
+        <br>
+    
+    </div>
+    <!-- Product 2 -->
+    <div class="item2">
+   <center>    <img src="Apple-12-Pro-400.png"></center>
+        <br>
+        <h4 class="iphone">Apple iPhone 12 Pro 512 GB, Graphite</h4>
+        <br>
+        <h6 class="gray iphone2 new">&emsp; Deal Price &#8377; 143,900</h6>
+        <button class="btnbuy set1 new2" onclick="location.href='Apple 12 pro.html '">Buy Now</button>  
+        <br>
+      
+
+    </div>
+</div>
+<br>
+<hr width="100%" >
+<div class="container1">
+    <!-- Product 3 -->
+    <div class="item2">
+      <img src="Apple-12-mini-400.png">
+        <br>
+        <h4 class="iphone">Apple iPhone 12 Mini 128 GB, Green</h4>
+        <br>
+        <h6 class="gray iphone2 new">&emsp; Deal Price &#8377; 71,150</h6>
+        <button class="btnbuy set1 new2" onclick="location.href='Apple 12 mini.html '">Buy Now</button>
+       
+    </div>
+    <!-- Product 4 -->
+    <div class="item2">
+            <img src="iPhone-11-Pro-Max-400.png"> 
+        <br>
+        <h4 class="iphone">Apple iPhone 11 Pro Max,Gold</h4>
+        <br>
+        <h6 class="gray iphone2 new">&emsp; Deal Price &#8377; 1,14,900</h6>
+        <button class="btnbuy set1 new2" onclick="location.href='Apple 11 Pro Max.html '">Buy Now</button>  
+        <br>
+      
+
+    </div>
+</div>
+<br>
+<hr>
+<br>
+<div class="container1">
+    <!-- Product 5 -->
+    <div class="item2">
+      <img src="iPhone-11-128-400.png">
+        <br>
+        <h4 class="iphone">Apple iPhone 11 128 GB ,Red</h4>
+        <br>
+        <h6 class="gray iphone2 new">&emsp; Deal Price &#8377; 59,100</h6>
+        <button class="btnbuy set1 new2" onclick="location.href='Apple 11.html '">Buy Now</button>
+       
+    </div>
+    <!-- Product 6 -->
+    <div class="item2">
+            <img src="Apple-iPhone-SE-400.png"> 
+        <br>
+        <h4 class="iphone3">Apple iphone SE</h4>
+        <br>
+        <h6 class="gray iphone2 new">&emsp; Deal Price &#8377; 80,650</h6>
+        <button class="btnbuy set1 new2" onclick="location.href='Apple se.html '">Buy Now</button>  
+        <br>
+      
+
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+</body>
+</html>

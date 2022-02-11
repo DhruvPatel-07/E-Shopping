@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+<style>
+     /* .bo{
+         border:1px solid black;
+         border-radius: 5px;
+     }  */
+    .gray{
+        color: gray;
+
+    }
+    .gray:hover{
+        color:black;
+    }
+    .font{
+        font-weight: bold;
+    }
+    .ave{
+        color:green;
+    }
+    .bg{
+        background-color: rgb(180, 175, 175);
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+   .btn1
+   {
+    color:white;
+        background-color: black;
+        border-radius: 8px;
+        font-size: 20px;
+        width: 47%;
+        height: 10%;
+        
+    
+    }
+    .btn1:hover
+   {
+    color:white;
+        background-color:red;
+        border-radius: 15px;
+        font-size: 20px;
+        width: 47%;
+        height: 10%;
+        
+    
+    }
+    .mar{
+        margin-top: 15px;
+    }
+    .psiz{
+        font-size: 20px;
+    }
+    .psiz1{
+        font-size: 20px;
+
+    }
+   .check {
+     
+      width: 18px;
+      height:18px;
+    
+      
+      
+    }
+    .hfour{
+      color:orangered;
+    }
+    .check{
+      width:16px;
+      height: 16px;
+    }
+    .offer{
+      color: rgb(22, 22, 22);
+    }
+    .responsive{
+      width: 100%;
+      max-width: 400px;
+  height: auto;
+    }
+    
+    
+     
+    
+
+</style>  
+</head>
+
+  <body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">E-Shopping</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"  href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Accout
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="mx-1">
+          <div class="mx-2">
+            <button onclick="location.href='login.html'" class="btn-outline-danger btn">Login</button> 
+            <button class="btn-outline-primary btn">SingnUp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- Buy Now Page -->
+<div class="container mar">
+    <div class="row">
+      <div class="col ">
+        <img src="Apple-12-mini-400.png"><hr width="100%" size="10">
+      </div>
+      <div class="col bo">
+        <h3 class="font">Apple iPhone 12 mini(Green, 128GB)</h3>
+    
+        <h5 class="gray"><font color="black">Deal Price :&nbsp;</font>&#8377; 1,43,990&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s><font color="green" size="3px">RS.&#8377; 1,48,990</s>&nbsp;&nbsp;[5 %off]</font></h5>
+        <p class="ave"><b>Available offers</b></p>
+      <!-- Stotage -->
+        <div>
+          <div><h4 class="hfour">Storage</h4></div>
+          
+       
+      <div class="sto" > <input class="check" type="radio" checked>&nbsp;128 GB </div>
+    
+      </div>
+      <!-- storage end -->
+  
+      <br>
+        <p class="offer"><img class="bg" src="outline_price_check_black_24dp.png"> &nbsp;<b>Get 6,000 Cashback on HDFC Bank Cards (through Pinepg only) <font color="red"><sup>T&c</sup></font></b></p>
+        <p class="offer"><img class="bg" src="outline_price_check_black_24dp.png"> &nbsp;<b>No cost EMI starting from ₹14,150 /month  <font color="red"><sup>T&c</sup></font></b></p>
+        <p class="offer"><img class="bg" src="outline_price_check_black_24dp.png"> &nbsp;<b>Standard EMI available (through Pinepg only) <font color="red"><sup>T&c</sup></font></b></p>
+        <button class="btn1" onclick="location.href='Address.html'">&nbsp;&nbsp;&nbsp;&nbsp;Buy Now&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        
+     <br>
+     <br>
+        <hr width="100%" size="10"> 
+    </div>
+    
+     
+    </div>
+  </div>
+
+<!-- Details -->
+<!-- <div class="container  mar">
+    <div class="row">
+      <div class="col">
+        <h3><b>Highlits</b></h3>
+        <br>
+        <p class="psiz">Brand&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Apple</p>
+        <p class="psiz">Product Code&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;iPhone 12 - 128GB </p>
+        <p class="psiz1">Stock&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox"checked><font color="green">in Stock</font></p>
+        <p class="psiz">Keyspecs&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp;<input type="radio" checked>Apple A14 Bionic  chip </p>
+    </div>
+      <div class="col">
+        Column
+      </div>
+     
+    </div>
+  </div> -->
+
+
+  <!-- Hiligits -->
+  <div class="container  mar">
+    <div class="row">
+      <div class="col">
+        <h3 class=""><b>Highlits</b></h3><hr>
+        <br>
+        <p class="psiz">Brand</p><hr>
+        <p class="psiz">Product Code </p>
+        <p class="psiz1">Stock</p>
+        <p class="psiz">Keyspecs</p>
+        <br>
+        <br>
+    </div>
+      <div class="col">
+        <h3 ><b>Specifications</b></h3><hr>
+        <br>
+        <p class="psiz">Apple</p><hr>
+        <p class="psiz">iPhone 12 - 128GB </p>
+        <p class="psiz1"> <input class="check" type="checkbox"checked><font color="green"> &nbsp;in Stock</font></p>
+        <p class="psiz"><input  type="radio" checked>Apple A14 Bionic  chip </p>
+        <p class="psiz"><input type="radio" checked> 12 MP +  12 MP Rear Camera | 12 MP Front Camera</p>
+        <p class="psiz"><input type="radio" checked> 4 GB RAM | 128 GB ROM.</p>
+        <p class="psiz"><input type="radio" checked> Superfast wireless Hello 5G.</p>
+      </div>
+     
+    </div>
+  </div>
+  <!-- higlits End -->
+
+  <!-- overview -->
+  <!-- <div class="container  mar">
+    <div class="row">
+      <div class="col">
+        <img id="over" src="apple-iphone-12-family-removebg-preview (1).png">
+    </div> -->
+
+  </body>
+</html>

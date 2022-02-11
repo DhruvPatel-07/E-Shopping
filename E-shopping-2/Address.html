@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <style>
+        *{
+            margin:0;
+           padding:0; 
+        }
+.heading{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(73, 72, 72);
+    color:white;
+    height: 50px;
+}      
+h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}  
+.input1{
+    width:360px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    transition: all;
+    transition-duration: 5s;
+    
+
+}
+.input2{
+    width:360px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all;
+    transition-duration: 5s;
+    background-color: blanchedalmond;
+    
+
+}
+.input1:hover{
+    width:360px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+    
+
+}
+.input2:hover{
+    width:360px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color:black;
+    color:white;
+    
+
+}
+.form1{
+    display: flex;
+    justify-content: center;
+background-image:linear-gradient(white,gray,white);
+    /* display: inline-block; */
+}
+.texta
+{
+    width: 350px;
+    height:80px;
+    border-radius: 15px;
+    font-size: 2opx;
+    transition: all;
+    transition-delay: 0.5s;
+    background-color: blanchedalmond;
+}
+.texta:hover
+{
+    width: 350px;
+    height:80px;
+    border-radius: 15px;
+    font-size: 2opx;
+    background-color:black;
+    color: white;
+}
+.btn{
+    margin-left:50px ;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+}
+::placeholder{
+    font-size: 18px;
+    color: black;
+    transition: all;
+    transition-delay: 0.5s;
+}
+::placeholder:hover{
+    font-size: 18px;
+    color: white;
+}
+a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;   
+      }
+
+    </style>
+</head>
+<body>
+    <div class="heading">
+    <h1>
+        Address
+    </h1>
+</div >
+<div class="form1">
+    <!-- <Form>
+        <table>
+      Name 
+                
+                <tr><td>
+                <input type="text" placeholder="name">&emsp;
+                
+                <input type="text" placeholder="Lastname">
+            </td></tr>
+                <br>
+Mobile Number
+                <tr>
+                    <td>
+                        <input type="tel" placeholder="Mobile">&emsp;
+                        <input type="tel" placeholder="Alt Mobile">
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="number"maxlangth="6" placeholder="Postal code">
+                    </td>
+                </tr>
+                <tr>
+                
+                    <td colspan="2" rowspan="2">
+                 <input type="textarea" cols="2" rows="2" >                  
+                    </td>
+                </tr>
+
+            
+        </table>
+    </Form> -->
+
+
+    <form>
+        <table border="3" bgcolor="gray">
+            <br>
+     <tr>
+         <td>
+        <input class="input2" type="text" placeholder="  First Name">&emsp;
+        <input class="input2" type="text" placeholder="  last Name">
+         </td>
+    </tr>
+    <tr>
+    
+        <td colspan>
+            <br>
+            <input class="input2" type="tel" placeholder="  Mobile">&emsp;
+            <input class="input2" type="tel" placeholder="  Alt mobile">
+        </td>
+    </tr>
+
+    
+<tr>
+    <td>
+        <br>
+        <input class="input1" type="email"  placeholder="  xyz@gmail.com">
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <br>
+        <input class="input1" type="number" maxlength="6" placeholder="  PinCode">
+    </td>
+</tr>
+<tr>
+    <td>
+        <br>
+        <input class="input1" type="text"  placeholder="  Country">
+    </td>
+</tr>
+<tr>
+    <td>
+        <br>
+        <input class="input1" type="text"  placeholder="  State">
+    </td>
+</tr>
+<tr>
+    <td>
+        <br>
+        <input class="input1" type="text"  placeholder="  City">
+    </td>
+</tr>
+
+    <tr>
+        
+        <td>
+            <br>
+            <textarea class="texta" placeholder="     Address"></textarea>    
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <br>
+            <input class="input1" type="text" placeholder="  landmark  (optional)">
+        </td>
+    </tr>
+<tr>
+    <td>
+        <br>
+    </form>
+        <button onclick="location.href='conform.html'" class="btn a"><a href="conform.html"></a>Subbmit</button>
+        
+    </td>
+</tr>
+    </table>
+    
+</div>
+    
+</body>
+</html>

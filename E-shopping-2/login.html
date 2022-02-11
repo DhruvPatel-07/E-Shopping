@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>   E-shopping Login</title>
+    <script>
+function myalert()
+{
+    var a;
+    a=alert("Login Succesful");
+}
+    
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         .box{
+            width: 450px;
+            height: 600px;
+            background-color:white;
+
+        }
+        h1{
+           background-color:black;
+           padding:20px;
+           border-radius: 9px; 
+           font-size: 40px;
+           color: white;
+
+
+        } 
+        .input{
+            width:315px;
+            height: 50px;
+            border-radius: 30px;
+            background-color: whitesmoke;
+            font-size: 20px;
+            outline: none;
+            color:black;
+        }
+        .input:hover{
+            width:315px;
+            height: 50px;
+            border-radius: 0px;
+            background-color: whitesmoke;
+            font-size: 20px;
+            outline: none;
+            color:black;
+        }
+
+
+        
+        .box2{
+            padding: 40px;
+        }
+        .box{
+            
+            box-shadow:2px 2px 4px 4px gray;
+            border-radius: 9px;
+        }
+    
+        
+        
+        .btn{
+            margin-top: 30px;
+            width: 300px;
+            height: 60px;
+            color:white;
+            background-color: black;
+            border-radius: 10px;
+            transition-property: all;
+            transition-duration: 1s;
+            font-size: 22px;
+        }
+        .btn:hover{
+            margin-top: 34px;
+            width: 300px;
+            height: 50px;
+            color:white;
+            background-color: black;
+            border-radius: 27px 50px;
+            font-style: italic;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+        }
+         .btn:hover:hover{
+        
+            margin-top: 35px;
+            width: 300px;
+            height: 50px;
+            color:white;
+            background-color: black;
+            border-radius: 50px 27px;
+         }
+         input{
+             color:whitesmoke;
+         }
+         ::placeholder{
+             color: black;
+             font-weight: bold;
+             
+         }
+         ::placeholder:hover{
+             color:white;
+             font-weight: bold;
+             
+         }
+         .forgot{
+             color: gray;
+             float: right;
+             font-size: 18px;
+             margin: 8px;
+             font-family: Arial, Helvetica, sans-serif;
+         }
+         a{
+            text-decoration: none;
+            color: #57b846;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+         .singup{
+             font-size: 18px;
+             margin: 80px;
+         }
+         .p{
+             color: gray;
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 15px;
+         }
+  </style>
+</head>
+<body>
+    <br>
+    <br>
+    <center>
+    <div class="box">
+    
+        <h1 class="login100-form">Login</h1>
+        <div class="box2">
+  <form name="login" onsubmit="return validateForm()" >
+    <b>  <tr><td><input class="input" type="text" name="fname"placeholder="User Name"></td></tr>
+      </div>
+      <div class="box3">
+      <tr><td><input class="input" type="password" name="password" placeholder="Password"></td></tr></b>
+  </form>
+</div>
+
+
+<div class="forgot"><p>Forgot:<a href="#" id="uname"> Username/Password</a></p> </div>
+<div class="loginbtn">
+    <button class="btn" type="subbmit" value="subbmit" onclick="myalert()">Login</button>
+    </div>
+    <div class="singup"> <p class="p"> Don't have an account?<br>
+        </p>
+    <a href="#">SIGN UP NOW</a></div>
+
+</div>    
+</center>
+</body>
+</html>
